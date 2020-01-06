@@ -1,0 +1,99 @@
+#content{overflow:hidden}
+.container{position:relative;width:960px;margin:0 auto;padding:0}
+.container.floated{width:1020px}
+.container .column,.container .columns{float:left;display:inline;margin-left:10px;margin-right:10px}
+.row{margin-bottom:20px}
+.container .floated{float:right;display:table-cell;margin:0;padding:0 40px}
+.container .one.column,.container .one.columns,.container .one.floated{width:40px}
+.container .four.columns,.container .four.floated{width:220px}
+.container .eight.columns,.container .eight.floated{width:460px}
+.container .eleven.columns,.container .eleven.floated{width:640px}
+.container .sixteen.columns,.container .sixteen.floated{width:940px}
+.container .one-third.column,.container .one-third.columns{width:300px}
+.container .two-thirds.column,.container .two-thirds.columns{width:620px}
+.floated.sidebar{position:absolute;top:0;bottom:0}
+@media only screen and (min-width:768px) and (max-width:959px){.container{width:678px}
+.container.floated{width:714px}
+.container .column,.container .columns{margin-left:7px;margin-right:7px}
+.container .floated{float:left;display:inline;margin:0;padding:0 28px}
+#content .blank.floated{width:678px;margin-left:-18px}
+.container .four.columns,.container .four.floated{width:154px}
+.container .eight.columns,.container .eight.floated{width:322px}
+.container .sixteen.columns,.container .sixteen.floated{width:658px}
+.container .one-third.column,.container .one-third.columns{width:212px}
+.container .floated{float:left;display:inline;margin:0;padding:0 28px}
+.container .four.columns,.container .four.floated{width:154px}
+#miniSurveyView216 input,#miniSurveyView216 textarea,select{max-width:30%}
+#footer,#footer-bottom,#wrapper{width:714px}
+#navigation{width:734px}
+.container .eleven.columns,.container .eleven.floated{width:448px}
+.container .four.columns,.container .four.floated{width:154px}
+#about-list li img{float:left;display:block;margin:10px}
+#about-list li p{margin:0 20px 0 0;font-size:12px}
+#contact textarea,#respond textarea,.wpcf7 textarea{max-width:425px;min-width:425px}
+.thirdscreen .con li a{padding:0 15px}
+.secondscreen .contact{margin-top:-175px;float:right}
+.firstscreen h2{margin:10px 0 10px}
+#tagline{display:none}
+}
+@media only screen and (max-width:767px){#sub-menu{float:left;margin:5px 0 0 0}
+.container .column,.container .columns{margin:0}
+.container,.container.floated{width:260px}
+.container .eight.columns,.container .eight.floated,.container .eleven.columns,.container .eleven.floated,.container .four.columns,.container .one-third.column,.container .one-third.columns,.container .sixteen.columns,.container .sixteen.floated{width:260px}
+#about-list .eleven.columns{width:260px}
+.container .floated{padding:0}
+.paragraph1{padding:20px 0}
+#about-list li{background:0 0;margin-bottom:0}
+#about-list li img{float:none;margin:0}
+#about-list .marginbottom{margin-bottom:10px}
+#header{min-height:115px}
+.portfolio-item,.recent-blog{margin:0 0 40px 0}
+#navigation .menu,#tagline,.contact-details,.left-corner,.right-corner,.slide-caption,.social-icons,.top-search{display:none}
+#navigation{margin:0;width:100%;height:auto;background:0 0}
+body .container .columns.carousel-intro{float:none!important}
+.container .floated{padding:0 30px}
+#breadcrumbs ul{float:left;padding:0;margin-top:-20px;width:100%}
+.page-title h1{margin:0 0 25px}
+.page-title{padding-bottom:30px!important}
+.selectnav{display:block}
+.selectnav{cursor:pointer;padding:10px;margin:0 0 30px 30px;float:left;font-size:14px}
+}
+@media only screen and (min-width:480px) and (max-width:767px){.container{width:360px}
+.container .floated{padding:0 30px}
+.container .eight.columns,.container .eight.floated,.container .eleven.columns,.container .eleven.floated,.container .four.columns,.container .four.floated,.container .one-third.column,.container .one-third.columns,.container .sixteen.columns,.container .sixteen.floated{width:360px}
+.floated.sidebar{position:static;top:0;bottom:0}
+#content .blank.floated{width:360px;margin-left:-30px;padding:30px 30px 0 30px}
+.page-content{padding:15px 0}
+.carousel-navi{margin:-10px 0 30px 0}
+#footer,#footer-bottom,#wrapper{width:420px}
+.selectnav{width:355px}
+#about-list .eleven.columns{width:360px}
+.container.floated{width:420px;padding:0}
+#about-list li .clicks{margin:-60px 0 0 0}
+#about-list li img{float:none;display:block;margin:0}
+#about-list li p{margin:5px 30px 0 0}
+#about-list li{background:0 0;padding-bottom:10px}
+#about-list .product-list{padding-bottom:10px}
+#about-list .marginbottom{margin-bottom:10px}
+#contact textarea,#respond textarea,.wpcf7 textarea{max-width:340px;min-width:340px}
+.container .floated{padding:0 30px}
+.flex-control-nav{display:none}
+}
+@media only screen and (max-width:479px){#footer,#footer-bottom,#wrapper{width:320px}
+#content .blank.floated{width:260px;padding:0 30px;margin-left:-30px}
+#contact textarea,#respond textarea,.wpcf7-form textarea{max-width:240px;min-width:240px}
+.container.floated{width:320px;padding:0}
+.page-content{padding:15px 0}
+#about-list li{background:0 0;padding-bottom:10px}
+#about-list .product-list{padding-bottom:10px}
+.carousel-navi{margin:-10px 0 30px 0}
+#contact textarea,#respond textarea,.wpcf7 textarea{max-width:240px;min-width:240px}
+.container .four.floated{width:260px}
+.floated.sidebar{position:static}
+.selectnav{width:255px}
+#not-found h2{font-size:160px}
+#not-found{margin:0}
+}
+.floated.right{float:right}
+.floated.sidebar.right{right:0;left:auto}
+.floated.sidebar.left{float:left;left:0;right:auto}
